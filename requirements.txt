@@ -1,0 +1,23 @@
+# ASBD Movie Analytics - exact versions used to produce the delivered results
+# Python 3.12.3 (64-bit, Windows 11); Java 17 or 21 required for PySpark 4.x (tested: Temurin 21.0.11)
+numpy==1.26.4
+pandas==2.2.1
+scipy==1.16.3
+scikit-learn==1.8.0
+matplotlib==3.10.1
+seaborn==0.13.2
+squarify==0.4.5
+mlxtend==0.23.4
+pyspark==4.0.1
+py4j==0.10.9.9
+psutil==7.2.2
+openpyxl==3.1.5
+tabulate==0.10.0
+python-docx==1.2.0
+docx2pdf==0.1.8          # DOCX -> PDF through Microsoft Word (Windows/macOS)
+pywin32==311 ; sys_platform == "win32"
+PyMuPDF==1.26.5          # lecture PDF text extraction + PDF verification
+pytest==9.2.0
+nbformat==5.11.1
+nbconvert==7.17.2
+ipykernel==7.3.0
